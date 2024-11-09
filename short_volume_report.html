@@ -1,0 +1,799 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                body {
+                    background-color: #1a1a1a;
+                    color: #ffffff;
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                }
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+                .title {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .date {
+                    color: #888;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 20px;
+                }
+                th {
+                    background-color: #2d2d2d;
+                    padding: 8px;
+                    text-align: right;
+                    border-bottom: 1px solid #444;
+                }
+                td {
+                    padding: 8px;
+                    text-align: right;
+                    border-bottom: 1px solid #333;
+                }
+                .symbol-group {
+                    background-color: #2d2d2d;
+                }
+                .symbol-header {
+                    font-size: 16px;
+                    padding: 5px;
+                    background-color: #2d2d2d;
+                }
+                .positive {
+                    color: #00ff00;
+                }
+                .negative {
+                    color: #ff4444;
+                }
+                .summary {
+                    margin-top: 20px;
+                    padding: 10px;
+                    background-color: #2d2d2d;
+                    border-radius: 5px;
+                }
+                .dark-pools {
+                    color: #00ff00;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <div class="title">Daily Institutional Short Sale Volume</div>
+                <div class="date">Last Update: 11/08/2024</div>
+            </div>
+        
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Bought</th>
+                    <th>%Avg</th>
+                    <th>Sold</th>
+                    <th>Buy Ratio</th>
+                    <th>Total</th>
+                    <th>Dark Pools</th>
+                </tr>
+        
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">IGV</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>IGV</td>
+                        <td>iShares Expand Tech-STW Sect</td>
+                        <td>1,481,955</td>
+                        <td>30.0%</td>
+                        <td>3,457,895</td>
+                        <td class="negative">0.43</td>
+                        <td>4,939,850</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>IGV</td>
+                        <td>iShares Expand Tech-STW Sect</td>
+                        <td>1,661,010</td>
+                        <td>30.0%</td>
+                        <td>3,875,690</td>
+                        <td class="negative">0.43</td>
+                        <td>5,536,700</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>IGV</td>
+                        <td>iShares Expand Tech-STW Sect</td>
+                        <td>2,159,940</td>
+                        <td>30.0%</td>
+                        <td>5,039,860</td>
+                        <td class="negative">0.43</td>
+                        <td>7,199,800</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>IGV</td>
+                        <td>iShares Expand Tech-STW Sect</td>
+                        <td>790,920</td>
+                        <td>30.0%</td>
+                        <td>1,845,480</td>
+                        <td class="negative">0.43</td>
+                        <td>2,636,400</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>IGV</td>
+                        <td>iShares Expand Tech-STW Sect</td>
+                        <td>516,480</td>
+                        <td>30.0%</td>
+                        <td>1,205,120</td>
+                        <td class="negative">0.43</td>
+                        <td>1,721,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">JBLU</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>JBLU</td>
+                        <td>JetBlue Airways Corp</td>
+                        <td>698,113</td>
+                        <td>3.2%</td>
+                        <td>20,848,588</td>
+                        <td class="negative">0.03</td>
+                        <td>21,546,701</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>JBLU</td>
+                        <td>JetBlue Airways Corp</td>
+                        <td>401,957</td>
+                        <td>3.2%</td>
+                        <td>12,004,143</td>
+                        <td class="negative">0.03</td>
+                        <td>12,406,100</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>JBLU</td>
+                        <td>JetBlue Airways Corp</td>
+                        <td>932,718</td>
+                        <td>3.2%</td>
+                        <td>27,854,882</td>
+                        <td class="negative">0.03</td>
+                        <td>28,787,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>JBLU</td>
+                        <td>JetBlue Airways Corp</td>
+                        <td>444,229</td>
+                        <td>3.2%</td>
+                        <td>13,266,571</td>
+                        <td class="negative">0.03</td>
+                        <td>13,710,800</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>JBLU</td>
+                        <td>JetBlue Airways Corp</td>
+                        <td>451,646</td>
+                        <td>3.2%</td>
+                        <td>13,488,054</td>
+                        <td class="negative">0.03</td>
+                        <td>13,939,700</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">PLTR</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>PLTR</td>
+                        <td>Palantir Technologies Inc</td>
+                        <td>1,039,480</td>
+                        <td>1.3%</td>
+                        <td>81,458,973</td>
+                        <td class="negative">0.01</td>
+                        <td>82,498,453</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>PLTR</td>
+                        <td>Palantir Technologies Inc</td>
+                        <td>1,529,037</td>
+                        <td>1.3%</td>
+                        <td>119,823,163</td>
+                        <td class="negative">0.01</td>
+                        <td>121,352,200</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>PLTR</td>
+                        <td>Palantir Technologies Inc</td>
+                        <td>1,439,624</td>
+                        <td>1.3%</td>
+                        <td>112,816,276</td>
+                        <td class="negative">0.01</td>
+                        <td>114,255,900</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>PLTR</td>
+                        <td>Palantir Technologies Inc</td>
+                        <td>2,631,739</td>
+                        <td>1.3%</td>
+                        <td>206,236,461</td>
+                        <td class="negative">0.01</td>
+                        <td>208,868,200</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>PLTR</td>
+                        <td>Palantir Technologies Inc</td>
+                        <td>950,207</td>
+                        <td>1.3%</td>
+                        <td>74,463,093</td>
+                        <td class="negative">0.01</td>
+                        <td>75,413,300</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">QQQ</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>QQQ</td>
+                        <td>QQQQ Trust Nasdaq 100</td>
+                        <td>6,727,398</td>
+                        <td>30.0%</td>
+                        <td>15,697,264</td>
+                        <td class="negative">0.43</td>
+                        <td>22,424,662</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>QQQ</td>
+                        <td>QQQQ Trust Nasdaq 100</td>
+                        <td>9,828,480</td>
+                        <td>30.0%</td>
+                        <td>22,933,120</td>
+                        <td class="negative">0.43</td>
+                        <td>32,761,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>QQQ</td>
+                        <td>QQQQ Trust Nasdaq 100</td>
+                        <td>12,924,660</td>
+                        <td>30.0%</td>
+                        <td>30,157,540</td>
+                        <td class="negative">0.43</td>
+                        <td>43,082,200</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>QQQ</td>
+                        <td>QQQQ Trust Nasdaq 100</td>
+                        <td>7,306,080</td>
+                        <td>30.0%</td>
+                        <td>17,047,520</td>
+                        <td class="negative">0.43</td>
+                        <td>24,353,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>QQQ</td>
+                        <td>QQQQ Trust Nasdaq 100</td>
+                        <td>6,987,480</td>
+                        <td>30.0%</td>
+                        <td>16,304,120</td>
+                        <td class="negative">0.43</td>
+                        <td>23,291,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">SPY</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>SPY</td>
+                        <td>SPDR S&P500 ETF</td>
+                        <td>11,702,568</td>
+                        <td>30.0%</td>
+                        <td>27,305,993</td>
+                        <td class="negative">0.43</td>
+                        <td>39,008,561</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>SPY</td>
+                        <td>SPDR S&P500 ETF</td>
+                        <td>14,137,530</td>
+                        <td>30.0%</td>
+                        <td>32,987,570</td>
+                        <td class="negative">0.43</td>
+                        <td>47,125,100</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>SPY</td>
+                        <td>SPDR S&P500 ETF</td>
+                        <td>20,454,600</td>
+                        <td>30.0%</td>
+                        <td>47,727,400</td>
+                        <td class="negative">0.43</td>
+                        <td>68,182,000</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>SPY</td>
+                        <td>SPDR S&P500 ETF</td>
+                        <td>11,843,490</td>
+                        <td>30.0%</td>
+                        <td>27,634,810</td>
+                        <td class="negative">0.43</td>
+                        <td>39,478,300</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>SPY</td>
+                        <td>SPDR S&P500 ETF</td>
+                        <td>11,465,100</td>
+                        <td>30.0%</td>
+                        <td>26,751,900</td>
+                        <td class="negative">0.43</td>
+                        <td>38,217,000</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">TSLA</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>TSLA</td>
+                        <td>Tesla Inc</td>
+                        <td>1,977,434</td>
+                        <td>1.0%</td>
+                        <td>199,801,555</td>
+                        <td class="negative">0.01</td>
+                        <td>201,778,989</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>TSLA</td>
+                        <td>Tesla Inc</td>
+                        <td>1,145,336</td>
+                        <td>1.0%</td>
+                        <td>115,725,764</td>
+                        <td class="negative">0.01</td>
+                        <td>116,871,100</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>TSLA</td>
+                        <td>Tesla Inc</td>
+                        <td>1,619,241</td>
+                        <td>1.0%</td>
+                        <td>163,609,459</td>
+                        <td class="negative">0.01</td>
+                        <td>165,228,700</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>TSLA</td>
+                        <td>Tesla Inc</td>
+                        <td>678,968</td>
+                        <td>1.0%</td>
+                        <td>68,603,532</td>
+                        <td class="negative">0.01</td>
+                        <td>69,282,500</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>TSLA</td>
+                        <td>Tesla Inc</td>
+                        <td>674,263</td>
+                        <td>1.0%</td>
+                        <td>68,128,137</td>
+                        <td class="negative">0.01</td>
+                        <td>68,802,400</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">USHY</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>USHY</td>
+                        <td>iShares US High Yld Corp</td>
+                        <td>3,947,479</td>
+                        <td>30.0%</td>
+                        <td>9,210,785</td>
+                        <td class="negative">0.43</td>
+                        <td>13,158,264</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>USHY</td>
+                        <td>iShares US High Yld Corp</td>
+                        <td>5,097,900</td>
+                        <td>30.0%</td>
+                        <td>11,895,100</td>
+                        <td class="negative">0.43</td>
+                        <td>16,993,000</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>USHY</td>
+                        <td>iShares US High Yld Corp</td>
+                        <td>5,878,440</td>
+                        <td>30.0%</td>
+                        <td>13,716,360</td>
+                        <td class="negative">0.43</td>
+                        <td>19,594,800</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>USHY</td>
+                        <td>iShares US High Yld Corp</td>
+                        <td>5,500,860</td>
+                        <td>30.0%</td>
+                        <td>12,835,340</td>
+                        <td class="negative">0.43</td>
+                        <td>18,336,200</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>USHY</td>
+                        <td>iShares US High Yld Corp</td>
+                        <td>2,717,250</td>
+                        <td>30.0%</td>
+                        <td>6,340,250</td>
+                        <td class="negative">0.43</td>
+                        <td>9,057,500</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">VOO</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>VOO</td>
+                        <td>Vanguard S&P 500</td>
+                        <td>2,036,869</td>
+                        <td>30.0%</td>
+                        <td>4,752,695</td>
+                        <td class="negative">0.43</td>
+                        <td>6,789,564</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>VOO</td>
+                        <td>Vanguard S&P 500</td>
+                        <td>1,813,020</td>
+                        <td>30.0%</td>
+                        <td>4,230,380</td>
+                        <td class="negative">0.43</td>
+                        <td>6,043,400</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>VOO</td>
+                        <td>Vanguard S&P 500</td>
+                        <td>2,244,990</td>
+                        <td>30.0%</td>
+                        <td>5,238,310</td>
+                        <td class="negative">0.43</td>
+                        <td>7,483,300</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>VOO</td>
+                        <td>Vanguard S&P 500</td>
+                        <td>990,090</td>
+                        <td>30.0%</td>
+                        <td>2,310,210</td>
+                        <td class="negative">0.43</td>
+                        <td>3,300,300</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>VOO</td>
+                        <td>Vanguard S&P 500</td>
+                        <td>1,104,450</td>
+                        <td>30.0%</td>
+                        <td>2,577,050</td>
+                        <td class="negative">0.43</td>
+                        <td>3,681,500</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">XLE</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>XLE</td>
+                        <td>Energy Select SPDR Fund</td>
+                        <td>3,300,357</td>
+                        <td>30.0%</td>
+                        <td>7,700,835</td>
+                        <td class="negative">0.43</td>
+                        <td>11,001,192</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>XLE</td>
+                        <td>Energy Select SPDR Fund</td>
+                        <td>3,918,420</td>
+                        <td>30.0%</td>
+                        <td>9,142,980</td>
+                        <td class="negative">0.43</td>
+                        <td>13,061,400</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>XLE</td>
+                        <td>Energy Select SPDR Fund</td>
+                        <td>7,507,980</td>
+                        <td>30.0%</td>
+                        <td>17,518,620</td>
+                        <td class="negative">0.43</td>
+                        <td>25,026,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>XLE</td>
+                        <td>Energy Select SPDR Fund</td>
+                        <td>3,131,490</td>
+                        <td>30.0%</td>
+                        <td>7,306,810</td>
+                        <td class="negative">0.43</td>
+                        <td>10,438,300</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>XLE</td>
+                        <td>Energy Select SPDR Fund</td>
+                        <td>3,871,770</td>
+                        <td>30.0%</td>
+                        <td>9,034,130</td>
+                        <td class="negative">0.43</td>
+                        <td>12,905,900</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">XLF</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>XLF</td>
+                        <td>SPDR Financial Select Sector</td>
+                        <td>17,511,780</td>
+                        <td>30.0%</td>
+                        <td>40,860,822</td>
+                        <td class="negative">0.43</td>
+                        <td>58,372,602</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>XLF</td>
+                        <td>SPDR Financial Select Sector</td>
+                        <td>21,172,980</td>
+                        <td>30.0%</td>
+                        <td>49,403,620</td>
+                        <td class="negative">0.43</td>
+                        <td>70,576,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>XLF</td>
+                        <td>SPDR Financial Select Sector</td>
+                        <td>46,042,020</td>
+                        <td>30.0%</td>
+                        <td>107,431,380</td>
+                        <td class="negative">0.43</td>
+                        <td>153,473,400</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>XLF</td>
+                        <td>SPDR Financial Select Sector</td>
+                        <td>10,566,540</td>
+                        <td>30.0%</td>
+                        <td>24,655,260</td>
+                        <td class="negative">0.43</td>
+                        <td>35,221,800</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>XLF</td>
+                        <td>SPDR Financial Select Sector</td>
+                        <td>12,511,680</td>
+                        <td>30.0%</td>
+                        <td>29,193,920</td>
+                        <td class="negative">0.43</td>
+                        <td>41,705,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                <tr class="symbol-group">
+                    <td colspan="9" class="symbol-header">XLV</td>
+                </tr>
+            
+                    <tr>
+                        <td>20241108</td>
+                        <td>XLV</td>
+                        <td>Health Care Select SPDR Fund</td>
+                        <td>2,609,802</td>
+                        <td>30.0%</td>
+                        <td>6,089,539</td>
+                        <td class="negative">0.43</td>
+                        <td>8,699,341</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241107</td>
+                        <td>XLV</td>
+                        <td>Health Care Select SPDR Fund</td>
+                        <td>2,814,270</td>
+                        <td>30.0%</td>
+                        <td>6,566,630</td>
+                        <td class="negative">0.43</td>
+                        <td>9,380,900</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241106</td>
+                        <td>XLV</td>
+                        <td>Health Care Select SPDR Fund</td>
+                        <td>3,205,680</td>
+                        <td>30.0%</td>
+                        <td>7,479,920</td>
+                        <td class="negative">0.43</td>
+                        <td>10,685,600</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241105</td>
+                        <td>XLV</td>
+                        <td>Health Care Select SPDR Fund</td>
+                        <td>1,510,590</td>
+                        <td>30.0%</td>
+                        <td>3,524,710</td>
+                        <td class="negative">0.43</td>
+                        <td>5,035,300</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20241104</td>
+                        <td>XLV</td>
+                        <td>Health Care Select SPDR Fund</td>
+                        <td>1,795,770</td>
+                        <td>30.0%</td>
+                        <td>4,190,130</td>
+                        <td class="negative">0.43</td>
+                        <td>5,985,900</td>
+                        <td class="dark-pools">15.0%</td>
+                    </tr>
+                
+            </table>
+            <div class="summary">
+                <div>Total Volume: 2,290,709,879</div>
+                <div>Total Bought: 309,404,160</div>
+                <div>Total Sold: 1,981,305,719</div>
+                <div>Average Total Volume: 208,246,353</div>
+                <div>Average Buy-Sell Ratio: 0.16</div>
+            </div>
+        </body>
+        </html>
+        
